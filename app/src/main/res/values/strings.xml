@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Amtrak Train App</string>
+    <string name="hint1">Boarding Time Hour</string>
+    <string name="hint2">Boarding Time Minutes</string>
+    <string name="hint3">Trip Length</string>
+    <string name="txtArrival">Arrival Time</string>
+    <string name="txtTitle">Amtrak Trip Service</string>
+    <string name="btnSubmit">Submit</string>
+    <string name="imgDescription">Trip Service</string>
+</resources>

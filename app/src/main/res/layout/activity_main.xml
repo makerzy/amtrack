@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgAmtrak"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/imgDescription"
+        android:src="@drawable/amtrak"
+        android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtTitle"
+        android:id="@+id/txtTitle"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="32sp"
+      />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:textSize="25sp"
+        android:hint="@string/hint1"
+        android:id="@+id/txtHours"
+        android:layout_below="@+id/txtTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+      />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:textSize="25sp"
+        android:hint="@string/hint2"
+        android:id="@+id/txtMinutes"
+        android:layout_below="@+id/txtHours"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+      />
+
+<EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:textSize="25sp"
+        android:hint="@string/hint3"
+        android:id="@+id/txtTripLength"
+        android:layout_below="@+id/txtMinutes"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+      />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnSubmit"
+        android:id="@+id/button"
+        android:layout_below="@+id/txtTripLength"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:textSize="35dp"
+/>
+
+</RelativeLayout>
